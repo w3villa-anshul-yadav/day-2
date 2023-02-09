@@ -1,40 +1,49 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
+
 }
 
+
+
+
+
+
 /* main navbar div  style */
-.navbar{
+.navbar {
     display: flex;
-    
+
     margin-top: 6px;
     position: relative;
-    
+
 }
-.title-text-navbar{
-    /* float: left; */
-    font-size: 29px;
-    font-weight:bold;
+
+.title-text-navbar {
+    font-size: 32px;
+    font-weight: bolder;
     display: inline-block;
-    /* text-align: center; */
-    /* padding: 20px auto; */
+
     padding-top: 20px;
     margin-left: 80px;
     color: rgb(7, 131, 180);
 }
-.navbar-main-menu{
+
+.navbar-main-menu {
     position: relative;
-    left:35%;
+    left: 35%;
 }
-.navbar-main-menu span,input{
+
+.navbar-main-menu span,
+input {
     margin: auto 10px;
 }
-.home-button{
-    
+
+.home-button {
+
     color: rgb(7, 125, 180);
 }
-#get-started-button{
+
+#get-started-button {
     margin: 20px 40px;
     padding: 5px 10px;
     width: 115px;
@@ -62,131 +71,154 @@
 
 
 /* dropdown menu style */
-#dropdown-button:hover #dropdown-menu-content{
-  /* font-size: small;   */
-  /* display: block; */
-  display: flex;
-  position: absolute;
-  flex-direction: column;
-  
-  /* border: 1px solid wheat; */
-  background-color: black;
-  margin-top: -29px;
-  left:0;
-  background-color: aliceblue;
-  
-  width: auto;
+#dropdown-button:hover #dropdown-menu-content {
+
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+
+
+    background-color: black;
+    margin-top: -29px;
+    left: 0;
+    background-color: aliceblue;
+
+    width: auto;
 }
-#dropdown-button:hover .dropdown-text{
-    /* display:none; */
+
+#dropdown-button:hover .dropdown-text {
+
     cursor: pointer;
 }
 
-#dropdown-menu-content a{
+#dropdown-menu-content a {
     text-decoration: none;
-    /* color: aliceblue; */
-    /* color: white; */
+
     background-color: rgb(255, 255, 255);
-    text-align:center;
+    text-align: center;
     display: inline-block;
     padding: 3px 25px;
     margin-top: 0;
     width: auto;
     font-size: 20px;
     color: black;
-    
-    
+
+
 }
 
-#dropdown-menu-content{
+#dropdown-menu-content {
     display: none;
     background-color: aliceblue;
-    border-radius: 1px ;
-    box-shadow: 2px 2px 2px 2px #6f6a6a;
-    
+    border-radius: 1px;
+    box-shadow: 1px 1px 1px 1px #f8eded;
+
 }
-#dropdown-button{
+
+#dropdown-button {
     position: relative;
 }
 
 
 
 
+
+
+
+
+
 /* main content style */
 
-.main-content{
+.main-content {
     display: flex;
     flex-direction: column;
 
 }
-.main-content-text{
-    font-size:  60px ;
-    font-weight:bolder ;
+
+.main-content-text {
+    font-size: 52px;
+    font-weight: bolder;
     color: rgb(2, 2, 79);
     width: 40%;
     text-align: center;
     margin: auto;
     margin-top: 65px;
 }
-.secondary-main-text{
+
+.secondary-main-text {
     color: gray;
-    font-size: 28px;
+    font-size: 26px;
     margin-top: 10px;
 }
-#get-started-button-main{
-     margin: 20px 40px;
+
+#get-started-button-main {
+    margin: 20px 40px;
     padding: 5px 25px;
     width: 135px;
-    /* font-weight: bold; */
-    /* font-size: 16px; */
+
     border-radius: 3px;
     height: 40px;
     background-color: rgb(11, 170, 244);
     color: white;
     border: none;
 }
-.fa-chevron-circle-down{
+
+.fa-chevron-circle-down {
     margin-left: 6px;
 }
 
 
+
+
+
+
+
+
 /* main content card styling */
 
-.main-content-cards{
+.main-content-cards {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 90px;
-    /* width: 80%; */
-    /* border-radius: 90px ; */
+    margin-bottom: 90px;
+
 }
-.card{
+
+.card {
     box-shadow: 3px 3px 3px 3px #575656;
     border-radius: 4px;
     width: 180px;
     height: 210px;
-    /* text-align: center; */
+
     background-color: rgb(11, 170, 244);
     display: inline-block;
 }
-.card-heading{
-    /* color: white; */
+
+.card-heading {
+
     font-size: 22px;
     display: inline-block;
     font-weight: bold;
-    margin:  6px 12px 4px 11px;
-    /* margin-bottom: 10px; */
-    
+    margin: 6px 12px 4px 11px;
+
+
 }
-.card-heading i{
-    margin: 23px 70px 15px 3px ;
+
+.card-heading i {
+    margin: 23px 70px 15px 3px;
+    font-size: 27px;
 }
-.card-text{
-    
-    /* background-color: white; */
+
+.card-text {
+
+
     margin: 1px 11px;
-    /* color: rgb(247, 242, 242); */
+
     display: inline-block;
-    /* width: 60%; */
-    /* margin:  6px 13px 4px 13px; */
+
+}
+
+input[type=button] {
+    box-shadow: 3px 3px rgb(6, 17, 79);
+    cursor: pointer;
 }
