@@ -125,6 +125,8 @@ input {
 
 #dropdown-button {
     position: relative;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 
